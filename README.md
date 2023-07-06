@@ -1,1 +1,11 @@
 # StreamingPlatformAnalysisBasedOnIMDB
+
+
+A total of four OTT platforms datasets namely Netflix, Prime, Disney+ and Hulu was considered in this project. A new column named ‘platform’ in each of the Netflix, Prime, Disney+ and Hulu in each of the respective data set and then merged all of them.
+After merging the 4 datasets and performing data cleaning and wrangling operations to create a merged and clean data set of all the movies and TV shows listed in 4 OTT platforms, the IMDB ratings, votes and other attributes were planned to retrieve from the IMDB python library for each of the movie or TV show.
+IMDBpy library is a python package which can retrieve and manage data from the Internet movie Database (IMDB). We can search for movies, TV series, actors, actresses, directors etc. We can access various data such as movie titles, directors, actors/actresses, release year, runtime, ratings, etc. This will create a completely unique dataset which will have ratings for all the movies and TV shows listed in the 4 OTT platforms.
+
+We have planned to perform the Exploratory Data Analysis (EDA) on this unique dataset. EDA  was performed to find out whether there is a relationship between the runtime and IMDB rating of a movie, do movies with a higher release year tend to have higher IMDB ratings, Is there a correlation between the number of votes and IMDB rating of a movie, Are there any countries that produce more movies than others, Is there a relationship between the certificate rating and the IMDB rating of a movie, Are there any outliers in the dataset, such as movies with very low ratings despite having a high number of votes, Are there any patterns in when movies were added to the platform, such as a higher number of movies being added during certain months.
+
+By analyzing the IMDB ratings, this EDA can help identify which movies are most popular among different users. This information can help streaming services personalize their content recommendations and improve user engagement. By analyzing which movies are most popular on OTT platforms, content providers can make more informed decisions about which movies to acquire and license for their own streaming services. Due to limited resources, we have faced call time issues because of which we have considered only Netflix movies for performing our EDA. 
+
