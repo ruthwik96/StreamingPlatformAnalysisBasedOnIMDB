@@ -1,4 +1,4 @@
-# StreamingPlatformAnalysisBasedOnIMDB
+# Streaming Platform Analysis Based On IMDB
 
 
 A total of four OTT platforms datasets namely Netflix, Prime, Disney+ and Hulu was considered in this project. A new column named ‘platform’ in each of the Netflix, Prime, Disney+ and Hulu in each of the respective data set and then merged all of them.
